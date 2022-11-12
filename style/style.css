@@ -200,7 +200,7 @@ span {
   background: white;
   width: 65%;
 }
-/* resporties*/
+/* repositories*/
 #services {
   padding: 30px 0;
 }
@@ -211,8 +211,7 @@ span {
   margin-top: 50px;
 }
 .services-list div {
-  background: #4b5155;
-
+  background: #303f47;
   padding: 36px;
   font-size: 16px;
   font-weight: 300;
@@ -236,4 +235,65 @@ span {
   background: #778e92;
   transform: translateY(-10px);
   color: #11161f;
+}
+/* contact  */
+
+.heading {
+  text-align: center;
+  font-size: 60px;
+}
+.contact form,
+.heading {
+  max-width: 59%;
+  margin: 14px auto;
+}
+.contact form .box {
+  width: 100%;
+  padding: 1rem;
+
+  text-transform: none;
+  border: var(--border-light);
+  margin: 0.5rem 0;
+}
+.contact form textarea {
+  height: 20rem;
+  resize: none;
+}
+.contact form .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact form .flex .box {
+  width: 49%;
+}
+
+.contact .box-container .box {
+  width: 32%;
+  height: 192px;
+  background: #434e57;
+  padding: 26px;
+  border-radius: 11px;
+  margin: 75px 10px;
+}
+.box:hover {
+  color: black;
+}
+.contact .box-container .box i {
+  font-size: 2rem;
+}
+.contact .box-container .box h3,
+.contact .box-container .box p {
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+}
+.credit {
+  text-align: center;
+  background-color: var(--black);
+  padding: 3rem;
+  font-size: 2rem;
+  color: var(--white);
+}
+.btn {
+  margin: 4% 35%;
 }
