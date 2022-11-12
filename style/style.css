@@ -60,6 +60,7 @@ nav ul li a:hover::after {
   flex-direction: column;
   align-items: center;
 }
+/* home */
 .home--title img {
   width: 15%;
 }
@@ -87,4 +88,40 @@ nav ul li a:hover::after {
 .btn:hover {
   background-color: #5d7683;
   color: white;
+}
+/* about */
+#about {
+  color: #fff;
+  padding: 105px 0;
+}
+.row {
+  justify-content: space-between;
+}
+.row,
+.mani-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mani-2 img {
+  width: 16%;
+  margin: 12px 0px;
+}
+.about-col-1 {
+  flex-basis: 35%;
+}
+.about-col-1 img {
+  width: 100%;
+  border-radius: 15px;
+}
+.about-col-2 {
+  flex-basis: 60%;
+}
+.about-col-2 p {
+  margin-top: 14px;
+  font-size: 20px;
+}
+.sub-title {
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
 }
