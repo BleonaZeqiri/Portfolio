@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #11161f;
+  color: #fff;
+}
+.message {
+  position: sticky;
+  top: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-size: 2rem;
+  background: #507698;
+}
+.message i {
+  cursor: pointer;
+}
+.container {
+  padding: 20px 10%;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+  cursor: pointer;
+}
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: #329f8e;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav ul li a:hover::after {
+  width: 100%;
+}
+.home--title {
+  margin-top: 15%;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home--title img {
+  width: 15%;
+}
+.home--title h3 {
+  margin-top: 20px;
+}
+.home--title h4 span {
+  color: #54beca;
+}
+.button,
+.btn {
+  padding: 21px 58px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: 4% 39%;
+  border-radius: 18px;
+}
+.button a,
+.btn {
+  text-decoration: none;
+  color: black;
+}
+.button1:hover,
+.btn:hover {
+  background-color: #5d7683;
+  color: white;
+}
