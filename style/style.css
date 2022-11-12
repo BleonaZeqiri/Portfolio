@@ -69,6 +69,7 @@ nav ul li a:hover::after {
 }
 .home--title h4 span {
   color: #54beca;
+  font-size: 30px;
 }
 .home-section {
   display: flex;
@@ -287,13 +288,33 @@ span {
   margin: 1.5rem 0;
   font-size: 1.5rem;
 }
-.credit {
-  text-align: center;
-  background-color: var(--black);
-  padding: 3rem;
-  font-size: 2rem;
-  color: var(--white);
-}
 .btn {
   margin: 4% 35%;
+}
+/* /social media/ */
+.social-media {
+  text-align: center;
+}
+.social-media h1 {
+  font-size: 36px;
+  font-family: cursive;
+}
+.social-media h5 {
+  font-size: 17px;
+  font-family: cursive;
+}
+.socialmedia-content img {
+  width: 6%;
+  margin: 16px;
+}
+.socialmedia-content a {
+  text-decoration: none;
+}
+nav .fas {
+  display: none;
+}
+.credit {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.5rem;
 }

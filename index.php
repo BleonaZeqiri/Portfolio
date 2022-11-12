@@ -207,21 +207,40 @@ if(isset($_POST['send'])){
         </button>
       </div>
     </div>
-     <!-- contact section starts  -->
 
-<section class="contact" id="contact">
+     <!-- contact  -->
+    <section class="contact" id="contact">
+     <h1 class="heading" > Contact me</h1>
+     <form action="" method="post">
+       <div class="flex">
+       <input data-aos="fade-right" type="text" name="name" placeholder="enter your name" class="box" required>
+       <input data-aos="fade-left" type="email" name="email" placeholder="enter your email" class="box" required>
+       </div>
+         <input data-aos="fade-up" type="number" min="0" name="number" placeholder="enter your number" class="box" required>
+          <textarea data-aos="fade-up" name="message" class="box" required placeholder="enter your message" cols="30" rows="10"></textarea>
+          <input type="submit" data-aos="zoom-in" value="send message" name="send" class="btn">
+      </form> 
+    </section>
 
-<h1 class="heading" > Contact me</h1>
+     <!-- social media -->
+    <div class="container">
+      <div class="social-media">
+        <br>
+        <h1>My Social media</h1>
+        <br>
+        <h5>Follow me on social media ,if you want to know more about me.</h5>
+      <div class="socialmedia-content">
+        <a href="https://www.facebook.com/profile.php?id=100009298063678"><img src="img/facebook.gif" alt=""> </a>
+         <a href="https://www.linkedin.com/in/bleona-zeqiri-9a304a249/"><img src="img/linked.gif" alt=""> </a>
+         <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"> <img src="img/gmil.gif" alt=""></a>
+      </div>
+      </div>
+    </div>
 
-<form action="" method="post">
-   <div class="flex">
-      <input data-aos="fade-right" type="text" name="name" placeholder="enter your name" class="box" required>
-      <input data-aos="fade-left" type="email" name="email" placeholder="enter your email" class="box" required>
-   </div>
-   <input data-aos="fade-up" type="number" min="0" name="number" placeholder="enter your number" class="box" required>
-   <textarea data-aos="fade-up" name="message" class="box" required placeholder="enter your message" cols="30" rows="10"></textarea>
-   <input type="submit" data-aos="zoom-in" value="send message" name="send" class="btn">
-</form> 
+
+<!-- contact section ends -->
+
+<div class="credit"> &copy; copyright  <?php echo date('Y'); ?>  </div>
 
     <script src="main.js"></script>
   </body>
