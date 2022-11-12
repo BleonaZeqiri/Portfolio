@@ -125,3 +125,73 @@ nav ul li a:hover::after {
   font-weight: 600;
   color: #fff;
 }
+/* skills */
+.tab-titles {
+  display: flex;
+  margin: 20px 0 40px;
+}
+.tab-links {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+.tab-links::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #329f8e;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+.tab-links.active-link::after {
+  width: 50%;
+}
+.tab-contents ul li {
+  list-style: none;
+
+  font-size: 25px;
+}
+#education ul li {
+  margin: 22px 85px;
+}
+
+.tab-contents {
+  display: none;
+}
+.tab-contents.active-tab {
+  display: block;
+}
+.tab-contents hr {
+  height: 17px;
+  width: 65%;
+  background: #526cad;
+  margin: 10px 0px;
+  border: none;
+}
+.hr hr {
+  width: 65%;
+}
+.hr-1 hr {
+  width: 70%;
+}
+.hr-2 hr {
+  width: 95%;
+}
+.description {
+  display: flex;
+  width: 77%;
+}
+span {
+  color: #dfeced;
+  font-size: 22px;
+}
+.hr,
+.hr-1,
+.hr-2 {
+  background: white;
+  width: 65%;
+}
