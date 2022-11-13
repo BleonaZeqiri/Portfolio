@@ -10,3 +10,18 @@ function opentab(tabname) {
   event.currentTarget.classList.add("active-link");
   document.getElementById(tabname).classList.add("active-tab");
 }
+
+var sidemeu = document.getElementById("sidemenu");
+
+let hamburgerMenu = document.getElementById("hamburgerMenu");
+
+hamburgerMenu.addEventListener("click", function () {
+  console.log("d");
+  sidemeu.style.right = "0px";
+});
+function openmenu() {
+  console.log("resd");
+}
+function closemenu() {
+  sidemeu.style.right = "-200px";
+}

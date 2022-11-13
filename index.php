@@ -60,7 +60,10 @@ if(isset($_POST['send'])){
 
           <li><a href="#services">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
         </ul>
+        <div id="hamburgerMenu">
+        <i class="fas fa-bars" ></i></div>
       </nav>
 
       <div class="home-section">

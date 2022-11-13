@@ -1,0 +1,129 @@
+@media only screen and (max-width: 600px) {
+  nav {
+    display: block;
+  }
+  nav .fas {
+    display: block;
+    font-size: 25px;
+  }
+  .nav .fa-bars {
+    float: left;
+    margin-left: 272px;
+  }
+  nav ul {
+    background: #8aaaad;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 72vh;
+    padding-top: 50px;
+    z-index: 2;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
+  nav ul .fas {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+  .home--title h3 {
+    text-align: center;
+  }
+  .home--title {
+    font-size: 25px;
+  }
+  .button {
+    margin: 17px 92px;
+  }
+  .row {
+    display: contents;
+  }
+  .hr,
+  .hr-1,
+  .hr-2 {
+    width: 100%;
+  }
+  #about {
+    color: #fff;
+    padding: 42px 0;
+  }
+  .about-col-2 {
+    margin-top: 30px;
+  }
+  .mani-2 img {
+    width: 67%;
+  }
+  .description {
+    display: flex;
+    width: 98%;
+  }
+  #education ul li {
+    margin: 13px 0px;
+    font-size: 22px;
+  }
+  .sub-title,
+  .heading {
+    font-size: 32px;
+  }
+
+  .contact .box-container .box {
+    width: 100%;
+    margin: 17px 0px;
+    height: 183px;
+  }
+  .contact form,
+  .heading {
+    max-width: 93%;
+  }
+  .contact form .flex {
+    width: 100%;
+  }
+  .contact form .flex .box {
+    width: 100%;
+  }
+  .contact form .box {
+    margin: 0.5rem 0;
+  }
+  .btn {
+    font-size: 15px;
+    padding: 14px 80px;
+  }
+  .btn a {
+    text-align: center;
+  }
+  .socialmedia-content img {
+    width: 14%;
+    margin: 7px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .button,
+  .btn {
+    font-size: 15px;
+    padding: 14px 40px;
+  }
+  .home--title {
+    margin-top: 10%;
+    font-size: 25px;
+  }
+  .about-col-2 p {
+    margin-top: 14px;
+    font-size: 15px;
+  }
+  .sub-title {
+    font-size: 30px;
+  }
+  .hr,
+  .hr-1,
+  .hr-2 {
+    width: 100%;
+  }
+  .description {
+    width: 100%;
+  }
+}
