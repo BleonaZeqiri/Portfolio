@@ -171,7 +171,8 @@ if(isset($_POST['send'])){
             <img src="img/beetroot.jpg" alt="" />
             <li>
               <span>Beetroot Academy</span><br />Web Development:<br />
-              Front-end: Html, Css, JavaScript
+              Front-end: Html, Css, JavaScript<br>
+              Back-end:Node.js
             </li>
           </div>
         </ul>
@@ -194,7 +195,7 @@ if(isset($_POST['send'])){
           <div>
             <h2>Luna Project</h2>
             <p>Luna is a design project, that I made.</p>
-            <a href="#">View Code</a>
+            <a href="https://github.com/BleonaZeqiri/luna">View Code</a>
           </div>
           <div>
             <h2>Utopicfllowers</h2>
@@ -202,7 +203,7 @@ if(isset($_POST['send'])){
               Restaurant, establishment where refreshments or meals may be
               procured by the public.
             </p>
-            <a href="#">View Code</a>
+            <a href="https://github.com/BleonaZeqiri/UtopicFlowers">View Code</a>
           </div>
         </div>
         <button class="button button1">

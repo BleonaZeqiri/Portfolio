@@ -89,15 +89,19 @@
     margin: 0.5rem 0;
   }
   .btn {
-    font-size: 15px;
-    padding: 14px 80px;
+    margin-left: 26%;
   }
   .btn a {
     text-align: center;
   }
   .socialmedia-content img {
-    width: 14%;
-    margin: 7px;
+    width: 9%;
+    margin: 5px;
+  }
+  .button {
+    font-size: 15px;
+    padding: 14px 41px;
+    margin: 21px 23%;
   }
 }
 
