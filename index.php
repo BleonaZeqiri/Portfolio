@@ -74,7 +74,7 @@ if(isset($_POST['send'])){
           <h3>I am an 18 year old, working as a Web Development</h3>
         </div>
         <button class="button button1">
-          <a href="https://www.linkedin.com/in/bleona-zeqiri-9a304a249/"
+          <a href="https://www.linkedin.com/in/bleona-zeqiri-9a304a249/" target="_blank"
             >Follow me</a
           >
         </button>
@@ -103,13 +103,13 @@ if(isset($_POST['send'])){
       </div>
     </div>
     <!-- skills -->
-    <div class="container">
+    <div class="container" id="skills">
       <div class="tab-titles">
         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
 
         <p class="tab-links" onclick="opentab('education')">Educations</p>
       </div>
-      <div class="tab-contents active-tab" id="skills">
+      <div class="tab-contents active-tab" >
         <ul>
           <li>
             <div class="description">
@@ -173,6 +173,8 @@ if(isset($_POST['send'])){
               <span>Beetroot Academy</span><br />Web Development:<br />
               Front-end: Html, Css, JavaScript<br>
               Back-end:Node.js
+              <br>
+              GitHub
             </li>
           </div>
         </ul>
@@ -188,14 +190,14 @@ if(isset($_POST['send'])){
             <p>
               This is my portfolio. I have described myself and my abilities.
             </p>
-            <a href="https://github.com/BleonaZeqiri/Portfolio_Starlabs"
+            <a href="https://github.com/BleonaZeqiri/Portfolio_Starlabs" target="_blank"
               >View Code</a
             >
           </div>
           <div>
-            <h2>Luna Project</h2>
-            <p>Luna is a design project, that I made.</p>
-            <a href="https://github.com/BleonaZeqiri/luna">View Code</a>
+            <h2>Muzeu i Ferizajit</h2>
+            <p>This project was made for the museum of Ferizaj</p>
+            <a href="https://github.com/BleonaZeqiri/MuzeuiFerizajit" target="_blank">View Code</a>
           </div>
           <div>
             <h2>Utopicfllowers</h2>
@@ -203,7 +205,7 @@ if(isset($_POST['send'])){
               Restaurant, establishment where refreshments or meals may be
               procured by the public.
             </p>
-            <a href="https://github.com/BleonaZeqiri/UtopicFlowers">View Code</a>
+            <a href="https://github.com/BleonaZeqiri/UtopicFlowers" target="_blank">View Code</a>
           </div>
         </div>
         <button class="button button1">
@@ -234,9 +236,9 @@ if(isset($_POST['send'])){
         <br>
         <h5>Follow me on social media ,if you want to know more about me.</h5>
       <div class="socialmedia-content">
-        <a href="https://www.facebook.com/profile.php?id=100009298063678"><img src="img/facebook.gif" alt=""> </a>
-         <a href="https://www.linkedin.com/in/bleona-zeqiri-9a304a249/"><img src="img/linked.gif" alt=""> </a>
-         <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"> <img src="img/gmil.gif" alt=""></a>
+        <a href="https://www.facebook.com/profile.php?id=100009298063678"><img src="img/facebook.gif" alt="" target="_blank"> </a>
+         <a href="https://www.linkedin.com/in/bleona-zeqiri-9a304a249/"><img src="img/linked.gif" alt="" target="_blank"> </a>
+         <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"> <img src="img/gmil.gif" alt="" target="_blank"></a>
       </div>
       </div>
     </div>
