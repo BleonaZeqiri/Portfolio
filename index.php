@@ -200,13 +200,14 @@ if(isset($_POST['send'])){
             <a href="https://github.com/BleonaZeqiri/MuzeuiFerizajit" target="_blank">View Code</a>
           </div>
           <div>
-            <h2>Utopicfllowers</h2>
-            <p>
-              Restaurant, establishment where refreshments or meals may be
-              procured by the public.
-            </p>
-            <a href="https://github.com/BleonaZeqiri/UtopicFlowers" target="_blank">View Code</a>
-          </div>
+          <h2>Productly</h2>
+           
+           <p>
+           The product project is a design that was carried out as an assignment to be certified in the course
+        </p>
+
+        <a href="https://github.com/BleonaZeqiri/ProductlyProject" target="_blank">View Code</a>
+      </div>
         </div>
         <button class="button button1">
           <a href="https://github.com/BleonaZeqiri">Show more</a>
